@@ -614,6 +614,101 @@ button {
     line-height: 20px;
 }
 
+.rainbowUI-badge {
+    display: inline;
+    border-radius: 10px;
+}
+
+.rainbowUI-badge-simple {
+    color: #fff;
+    background-color: black;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-red {
+    color: #fff;
+    background-color: #f44336;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-red:hover {
+    color: #fff;
+    background-color: #d32f2f;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-yellow {
+    color: #fff;
+    background-color: #FDD835;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-yellow:hover {
+    color: #fff;
+    background-color: #FBC02D;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-pink {
+    color: #fff;
+    background-color: #E91E63;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-pink:hover {
+    color: #fff;
+    background-color: #C2185B;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-sky {
+    color: #fff;
+    background-color: #03A9F4;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-sky:hover {
+    color: #fff;
+    background-color: #0288D1;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-blue {
+    color: #fff;
+    background-color: #3F51B5;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-blue:hover {
+    color: #fff;
+    background-color: #1A237E;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-orange {
+    color: #fff;
+    background-color: #FB8C00;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-orange:hover {
+    color: #fff;
+    background-color: #EF6C00;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-green {
+    color: #fff;
+    background-color: #4CAF50;
+    font-size: 6px;
+}
+
+.rainbowUI-badge-green:hover {
+    color: #fff;
+    background-color: #2E7D32;
+    font-size: 6px;
+}
+
 
 /*rainbowUI-font*/
 
