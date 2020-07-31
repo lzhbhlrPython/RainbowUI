@@ -405,6 +405,55 @@ button {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
+.rainbowUI-card-red {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #f44336;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card-yellow {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #FDD835;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card-pink {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #E91E63;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card-sky {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #03A9F4;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card-sky {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #3F51B5;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card-orange {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #FB8C00;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card-green {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #4CAF50;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
 .rainbowUI-card:last-child {
     margin-bottom: 0;
 }
@@ -421,6 +470,24 @@ button {
 }
 
 .rainbowUI-card-body {
+    position: relative;
+    padding: 10px 15px;
+    line-height: 24px;
+}
+
+.rainbowUI-card-colorful-header {
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    border-bottom: 1px solid #f6f6f6;
+    color: #fff;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+}
+
+.rainbowUI-card-colorful-body {
+    color: #fff;
     position: relative;
     padding: 10px 15px;
     line-height: 24px;
