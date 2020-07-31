@@ -3,6 +3,10 @@
     Name:RainbowUI
     Licence:MIT
     Open-source:Yes!
+    Description:
+    This is my first project about frame.
+    I am a middle school student.
+    Enjoy it!
 */
 /*Basic Element*/
 html,body{
@@ -22,6 +26,10 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
 }
 /*Color*/
 .rainbowUI-color-red {
@@ -86,4 +94,18 @@ h1,h2,h3,h4,h5,h6{
 }
 .rainbowUI-bg-green{
     background-color: #4CAF50;
+}
+/*Some Element.*/
+table.rainbowUI-table-gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+}
+table.rainbowUI-table-gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
 }
