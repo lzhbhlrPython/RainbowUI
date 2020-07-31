@@ -9,3 +9,4 @@
     - Open source license: MIT license
 - Document links
     - [color](doc/color.md )
+    - [class](doc/class.md)

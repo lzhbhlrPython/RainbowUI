@@ -9,3 +9,4 @@
     - 开源许可:MIT License
 - 文档链接
     - [color](doc/color.md)
+    - [class](doc/class.md)
