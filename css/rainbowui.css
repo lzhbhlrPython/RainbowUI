@@ -7,12 +7,21 @@
     @Open-source:Yes!
     @Description:
     This is my first project about frame.
+    Thanks for rainbowUI,ICEUI and Rayui.
     I am a middle school student.
     Enjoy it!
 */
 
 
 /*Basic Element*/
+
+.rainbowUI-badge-rim {
+    border-color: #e6e6e6
+}
+
+body.rainbowUI-havecard {
+    background-color: #f1ebf1;
+}
 
 html,
 body {
@@ -387,6 +396,50 @@ button {
 
 .rainbowUI-btn-fluid {
     width: 100%;
+}
+
+.rainbowUI-card {
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+}
+
+.rainbowUI-card:last-child {
+    margin-bottom: 0;
+}
+
+.rainbowUI-card-header {
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    border-bottom: 1px solid #f6f6f6;
+    color: #333;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+}
+
+.rainbowUI-card-body {
+    position: relative;
+    padding: 10px 15px;
+    line-height: 24px;
+}
+
+.rainbowUI-card-body[pad15] {
+    padding: 15px;
+}
+
+.rainbowUI-card-body[pad20] {
+    padding: 20px;
+}
+
+.rainbowUI-card-body .rainbowUI-table {
+    margin: 5px 0;
+}
+
+.rainbowUI-card .rainbowUI-tab {
+    margin: 0;
 }
 
 
