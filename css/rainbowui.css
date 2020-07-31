@@ -67,23 +67,23 @@ h1,h2,h3,h4,h5,h6{
     color: #2E7D32;
 }
 .rainbowUI-bg-red{
-    color: #f44336;
+    background-color: #f44336;
 }
 .rainbowUI-bg-yellow{
-    color: #FDD835;
+    background-color: #FDD835;
 }
 .rainbowUI-bg-pink{
-    color: #E91E63;
+    background-color: #E91E63;
 }
 .rainbowUI-bg-sky{
-    color: #03A9F4;
+    background-color: #03A9F4;
 }
 .rainbowUI-bg-blue{
-    color: #3F51B5;
+    background-color: #3F51B5;
 }
 .rainbowUI-bg-orange{
-    color: #FB8C00;
+    background-color: #FB8C00;
 }
 .rainbowUI-bg-green{
-    color: #4CAF50;
+    background-color: #4CAF50;
 }
