@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*Introduction:
     @Author:Barry Liu
     @Name:RainbowUI
@@ -183,26 +184,227 @@ nav.rainbowUI-nav a:hover {
 }
 
 
+/*button*/
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+}
+
+.rainbowUI-btn {
+    outline: none;
+    -webkit-appearance: none;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    box-sizing: border-box;
+}
+
+.rainbowUI-btn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #000000;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.rainbowUI-btn:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    color: #fff;
+}
+
+.rainbowUI-btn:active {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.rainbowUI-btn+.rainbowUI-btn {
+    margin-left: 10px;
+}
+
+.rainbowUI-btn-container {
+    font-size: 0;
+}
+
+.rainbowUI-btn-container .rainbowUI-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.rainbowUI-btn-container .rainbowUI-btn+.rainbowUI-btn {
+    margin-left: 0;
+}
+
+.rainbowUI-btn-container .rainbowUI-btn {
+    margin-bottom: 9px;
+}
+
+.rainbowUI-btn-radius {
+    border-radius: 100px;
+}
+
+.rainbowUI-btn {
+    margin-right: 3px;
+    font-size: 18px;
+    vertical-align: bottom;
+    vertical-align: middle\0;
+}
+
+.rainbowUI-btn-primary {
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+    color: #555;
+}
+
+.rainbowUI-btn-primary:hover {
+    border-color: #009688;
+    color: #333
+}
+
+.rainbowUI-btn-red {
+    background-color: #f44336;
+}
+
+.rainbowUI-btn-yellow {
+    background-color: #FDD835;
+}
+
+.rainbowUI-btn-pink {
+    background-color: #E91E63;
+}
+
+.rainbowUI-btn-sky {
+    background-color: #03A9F4;
+}
+
+.rainbowUI-btn-blue {
+    background-color: #3F51B5;
+}
+
+.rainbowUI-btn-orange {
+    background-color: #FB8C00;
+}
+
+.rainbowUI-btn-green {
+    background-color: #4CAF50;
+}
+
+.rainbowUI-btn-disabled,
+.rainbowUI-btn-disabled:hover,
+.rainbowUI-btn-disabled:active {
+    border: 1px solid #e6e6e6;
+    background-color: #FBFBFB;
+    color: #C9C9C9;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.rainbowUI-btn-lg {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.rainbowUI-btn-sm {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.rainbowUI-btn-sm i {
+    font-size: 16px !important;
+}
+
+.rainbowUI-btn-xs {
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.rainbowUI-btn-xs i {
+    font-size: 14px !important;
+}
+
+.rainbowUI-btn-group {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 0;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn-primary {
+    border-left: none;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn-primary:hover {
+    border-color: #C9C9C9;
+    color: #009688;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn:first-child {
+    border-left: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn-primary:first-child {
+    border-left: 1px solid #c9c9c9;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn:last-child {
+    border-radius: 0 2px 2px 0;
+}
+
+.rainbowUI-btn-group .rainbowUI-btn+.rainbowUI-btn {
+    margin-left: 0;
+}
+
+.rainbowUI-btn-group+.rainbowUI-btn-group {
+    margin-left: 10px;
+}
+
+.rainbowUI-btn-fluid {
+    width: 100%;
+}
+
+
 /*rainbowUI-font*/
+
+
 /*It's some beautiful font to develop English Website*/
 
 @font-face {
     font-family: "cambridgeround";
-    src: url("../fonts/cambridgeround-it.woff2") format("woff2"),
-    url("../fonts/cambridgeround-it.woff") format("woff"),
-    url("../fonts/cambridgeround-it.ttf") format("truetype"),
-    url("../fonts/cambridgeround-it.eot") format("embedded-opentype"),
-    url("../fonts/cambridgeround-it.svg") format("svg");
+    src: url("../fonts/cambridgeround-it.woff2") format("woff2"), url("../fonts/cambridgeround-it.woff") format("woff"), url("../fonts/cambridgeround-it.ttf") format("truetype"), url("../fonts/cambridgeround-it.eot") format("embedded-opentype"), url("../fonts/cambridgeround-it.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "KohinoorBanglaMedium";
-    src: url("../fonts/KohinoorBanglaMedium.woff2") format("woff2"),
-    url("../fonts/KohinoorBanglaMedium.woff") format("woff"),
-    url("../fonts/KohinoorBanglaMedium.ttf") format("truetype"),
-    url("../fonts/KohinoorBanglaMedium.eot") format("embedded-opentype"),
-    url("../fonts/KohinoorBanglaMedium.svg") format("svg");
+    src: url("../fonts/KohinoorBanglaMedium.woff2") format("woff2"), url("../fonts/KohinoorBanglaMedium.woff") format("woff"), url("../fonts/KohinoorBanglaMedium.ttf") format("truetype"), url("../fonts/KohinoorBanglaMedium.eot") format("embedded-opentype"), url("../fonts/KohinoorBanglaMedium.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
