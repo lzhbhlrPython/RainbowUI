@@ -8,6 +8,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
 }
 * {
      margin: 0;
@@ -23,48 +24,66 @@ h1,h2,h3,h4,h5,h6{
     color: inherit;
 }
 /*Color*/
-.rainbow-color{
-    font-family: sans-serif;
-}
-.rainbow-color-red {
+.rainbowUI-color-red {
     color: #f44336;
 }
-.rainbow-color-red:hover{
+.rainbowUI-color-red:hover{
     color: #d32f2f;
 }
-.rainbow-color-yellow{
+.rainbowUI-color-yellow{
     color: #FDD835;
 }
-.rainbow-color-yellow:hover{
+.rainbowUI-color-yellow:hover{
     color: #FBC02D;
 }
-.rainbow-color-pink{
+.rainbowUI-color-pink{
     color: #E91E63;
 }
-.rainbow-color-pink:hover{
+.rainbowUI-color-pink:hover{
     color: #C2185B;
 }
-.rainbow-color-sky{
-    color: #03A9F4
+.rainbowUI-color-sky{
+    color: #03A9F4;
 }
-.rainbow-color-sky:hover{
+.rainbowUI-color-sky:hover{
     color: #0288D1;
 }
-.rainbow-color-blue{
+.rainbowUI-color-blue{
     color: #3F51B5;
 }
-.rainbow-color-blue:hover{
+.rainbowUI-color-blue:hover{
     color: #1A237E;
 }
-.rainbow-color-orange{
+.rainbowUI-color-orange{
     color: #FB8C00;
 }
-.rainbow-color-orange:hover{
+.rainbowUI-color-orange:hover{
     color: #EF6C00;
 }
-.rainbow-color-green{
+.rainbowUI-color-green{
     color: #4CAF50;
 }
-.rainbow-color-green:hover{
+.rainbowUI-color-green:hover{
     color: #2E7D32;
+}
+.rainbowUI-bg-red{
+    color: #f44336;
+}
+.rainbowUI-bg-yellow{
+    color: #FDD835;
+}
+.rainbowUI-bg-pink{
+    color: #E91E63;
+}
+.rainbowUI-bg-sky{
+    color: #03A9F4;
+}
+.rainbowUI-bg-blue{
+    color: #3F51B5;
+}
+.rainbowUI-bg-orange{
+    color: #FB8C00;
+}
+.rainbowUI-bg-green{
+    color: #4CAF50;
 }
