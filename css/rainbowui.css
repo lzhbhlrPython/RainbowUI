@@ -15,10 +15,6 @@
 
 /*Basic Element*/
 
-.rainbowUI-badge-rim {
-    border-color: #e6e6e6
-}
-
 body.rainbowUI-havecard {
     background-color: #f1ebf1;
 }
@@ -115,31 +111,38 @@ table {
 }
 
 .rainbowUI-bg-red {
-    background-color: #f44336;
+    background-color: #f44336 !important;
+    color: #fff !important;
 }
 
 .rainbowUI-bg-yellow {
-    background-color: #FDD835;
+    background-color: #FDD835 !important;
+    color: #fff !important;
 }
 
 .rainbowUI-bg-pink {
-    background-color: #E91E63;
+    background-color: #E91E63 !important;
+    color: #fff !important;
 }
 
 .rainbowUI-bg-sky {
-    background-color: #03A9F4;
+    background-color: #03A9F4 !important;
+    color: #fff !important;
 }
 
 .rainbowUI-bg-blue {
-    background-color: #3F51B5;
+    background-color: #3F51B5 !important;
+    color: #fff !important;
 }
 
 .rainbowUI-bg-orange {
-    background-color: #FB8C00;
+    background-color: #FB8C00 !important;
+    color: #fff !important;
 }
 
 .rainbowUI-bg-green {
-    background-color: #4CAF50;
+    background-color: #4CAF50 !important;
+    color: #fff !important;
 }
 
 
@@ -507,6 +510,115 @@ button {
 
 .rainbowUI-card .rainbowUI-tab {
     margin: 0;
+}
+
+
+/*table*/
+
+.rainbowUI-table-pretty {
+    width: 100%;
+    margin: 10px 0;
+    background-color: #fff;
+    color: #666;
+}
+
+.rainbowUI-table-pretty tr {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.rainbowUI-table-pretty th {
+    text-align: left;
+    font-weight: 400;
+}
+
+.rainbowUI-table-pretty thead tr,
+.rainbowUI-table-pretty-header,
+.rainbowUI-table-pretty-tool,
+.rainbowUI-table-pretty-total,
+.rainbowUI-table-pretty-total tr,
+.rainbowUI-table-pretty-patch,
+.rainbowUI-table-pretty-mend,
+.rainbowUI-table-pretty[lay-even] tr:nth-child(even),
+.rainbowUI-table-pretty tbody tr:hover,
+.rainbowUI-table-pretty-hover,
+.rainbowUI-table-pretty-click {
+    background-color: #f2f2f2;
+}
+
+.rainbowUI-table-pretty th,
+.rainbowUI-table-pretty td,
+.rainbowUI-table-pretty[lay-skin="line"],
+.rainbowUI-table-pretty[lay-skin="row"],
+.rainbowUI-table-pretty-view,
+.rainbowUI-table-pretty-tool,
+.rainbowUI-table-pretty-header,
+.rainbowUI-table-pretty-col-set,
+.rainbowUI-table-pretty-total,
+.rainbowUI-table-pretty-page,
+.rainbowUI-table-pretty-fixed-r,
+.rainbowUI-table-pretty-tips-main,
+.rainbowUI-table-pretty-grid-down {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+
+.rainbowUI-table-pretty th,
+.rainbowUI-table-pretty td {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.rainbowUI-table-pretty[lay-skin="line"] th,
+.rainbowUI-table-pretty[lay-skin="line"] td {
+    border-width: 0;
+    border-bottom-width: 1px;
+}
+
+.rainbowUI-table-pretty[lay-skin="row"] th,
+.rainbowUI-table-pretty[lay-skin="row"] td {
+    border-width: 0;
+    border-right-width: 1px;
+}
+
+.rainbowUI-table-pretty[lay-skin="nob"] th,
+.rainbowUI-table-pretty[lay-skin="nob"] td {
+    border: none;
+}
+
+.rainbowUI-table-pretty img {
+    max-width: 100px;
+}
+
+.rainbowUI-table-pretty[lay-size="lg"] th,
+.rainbowUI-table-pretty[lay-size="lg"] td {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.rainbowUI-table-pretty-view .rainbowUI-table-pretty[lay-size="lg"] .rainbowUI-table-pretty-cell {
+    height: 40px;
+    line-height: 40px;
+}
+
+.rainbowUI-table-pretty[lay-size="sm"] th,
+.rainbowUI-table-pretty[lay-size="sm"] td {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.rainbowUI-table-pretty-view .rainbowUI-table-pretty[lay-size="sm"] .rainbowUI-table-pretty-cell {
+    height: 20px;
+    line-height: 20px;
 }
 
 
