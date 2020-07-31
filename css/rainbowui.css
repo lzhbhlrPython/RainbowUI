@@ -25,7 +25,7 @@ body {
     --sky: #03A9F4;
     --sky-hover: #0288D1;
     --blue: #3F51B5;
-    --blue-hover: , #1A237E;
+    --blue-hover: #1A237E;
     --orange: #FB8C00;
     --orange-hover: #EF6C00;
     --green: #4CAF50;
@@ -71,93 +71,93 @@ table {
 /*Color*/
 
 .rainbowUI-color-red {
-    color: var(--red);
+    color: #f44336;
 }
 
 .rainbowUI-color-red:hover {
-    color: var(--red-hover);
+    color: #d32f2f;
 }
 
 .rainbowUI-color-yellow {
-    color: var(--yellow);
+    color: #FDD835;
 }
 
 .rainbowUI-color-yellow:hover {
-    color: var(--yellow-hover);
+    color: #FBC02D;
 }
 
 .rainbowUI-color-pink {
-    color: var(--pink);
+    color: #E91E63;
 }
 
 .rainbowUI-color-pink:hover {
-    color: var(--pink-hover);
+    color: #C2185B;
 }
 
 .rainbowUI-color-sky {
-    color: var(--sky);
+    color: #03A9F4;
 }
 
 .rainbowUI-color-sky:hover {
-    color: var(--sky-hover);
+    color: #0288D1;
 }
 
 .rainbowUI-color-blue {
-    color: var(--blue);
+    color: #3F51B5;
 }
 
 .rainbowUI-color-blue:hover {
-    color: var(--blue-hover);
+    color: #1A237E;
 }
 
 .rainbowUI-color-orange {
-    color: var(--orange);
+    color: #FB8C00;
 }
 
 .rainbowUI-color-orange:hover {
-    color: var(--orange-hover);
+    color: #EF6C00;
 }
 
 .rainbowUI-color-green {
-    color: var(--green);
+    color: #4CAF50;
 }
 
 .rainbowUI-color-green:hover {
-    color: var(--green-hover);
+    color: #2E7D32;
 }
 
 .rainbowUI-bg-red {
-    background-color: var(--red) !important;
+    background-color: #f44336 !important;
     color: #fff !important;
 }
 
 .rainbowUI-bg-yellow {
-    background-color: var(--yellow) !important;
+    background-color: #FDD835 !important;
     color: #fff !important;
 }
 
 .rainbowUI-bg-pink {
-    background-color: var(--pink) !important;
+    background-color: #E91E63 !important;
     color: #fff !important;
 }
 
 .rainbowUI-bg-sky {
-    background-color: var(--sky) !important;
+    background-color: #03A9F4 !important;
     color: #fff !important;
 }
 
 .rainbowUI-bg-blue {
-    background-color: var(--blue) !important;
+    background-color: #3F51B5 !important;
     color: #fff !important;
 }
 
 .rainbowUI-bg-orange {
-    background-color: var(--orange) !important;
+    background-color: #FB8C00 !important;
     color: #fff !important;
 }
 
 .rainbowUI-bg-green {
-    background-color: var(--green) !important;
+    background-color: #4CAF50 !important;
     color: #fff !important;
 }
 
@@ -324,31 +324,31 @@ button {
 }
 
 .rainbowUI-btn-red {
-    background-color: var(--red);
+    background-color: #f44336;
 }
 
 .rainbowUI-btn-yellow {
-    background-color: var(--yellow);
+    background-color: #FDD835;
 }
 
 .rainbowUI-btn-pink {
-    background-color: var(--pink);
+    background-color: #E91E63;
 }
 
 .rainbowUI-btn-sky {
-    background-color: var(--sky);
+    background-color: #03A9F4;
 }
 
 .rainbowUI-btn-blue {
-    background-color: var(--blue);
+    background-color: #3F51B5;
 }
 
 .rainbowUI-btn-orange {
-    background-color: var(--orange);
+    background-color: #FB8C00;
 }
 
 .rainbowUI-btn-green {
-    background-color: var(--green);
+    background-color: #4CAF50;
 }
 
 .rainbowUI-btn-disabled,
@@ -404,49 +404,49 @@ button {
 .rainbowUI-card-red {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--red);
+    background-color: #f44336;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
 .rainbowUI-card-yellow {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--yellow);
+    background-color: #FDD835;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
 .rainbowUI-card-pink {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--pink);
+    background-color: #E91E63;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
 .rainbowUI-card-sky {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--sky);
+    background-color: #03A9F4;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
-.rainbowUI-card-sky {
+.rainbowUI-card-blue {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--blue);
+    background-color: #3F51B5;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
 .rainbowUI-card-orange {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--orange);
+    background-color: #FB8C00;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
 .rainbowUI-card-green {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: var(--green);
+    background-color: #4CAF50;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
