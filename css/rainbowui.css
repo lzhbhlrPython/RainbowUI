@@ -1,0 +1,70 @@
+/*Introduction:
+    Author:Barry Liu
+    Name:RainbowUI
+    Licence:MIT
+    Open-source:Yes!
+*/
+/*Basic Element*/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+* {
+     margin: 0;
+     padding: 0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+h1,h2,h3,h4,h5,h6{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+/*Color*/
+.rainbow-color{
+    font-family: sans-serif;
+}
+.rainbow-color-red {
+    color: #f44336;
+}
+.rainbow-color-red:hover{
+    color: #d32f2f;
+}
+.rainbow-color-yellow{
+    color: #FDD835;
+}
+.rainbow-color-yellow:hover{
+    color: #FBC02D;
+}
+.rainbow-color-pink{
+    color: #E91E63;
+}
+.rainbow-color-pink:hover{
+    color: #C2185B;
+}
+.rainbow-color-sky{
+    color: #03A9F4
+}
+.rainbow-color-sky:hover{
+    color: #0288D1;
+}
+.rainbow-color-blue{
+    color: #3F51B5;
+}
+.rainbow-color-blue:hover{
+    color: #1A237E;
+}
+.rainbow-color-orange{
+    color: #FB8C00;
+}
+.rainbow-color-orange:hover{
+    color: #EF6C00;
+}
+.rainbow-color-green{
+    color: #4CAF50;
+}
+.rainbow-color-green:hover{
+    color: #2E7D32;
+}
