@@ -618,6 +618,34 @@ button {
     line-height: 20px;
 }
 
+.rainbowUI-table-bordered {
+    border: 1px solid #ddd;
+}
+
+.rainbowUI-table-bordered>thead>tr>th,
+.rainbowUI-table-bordered>tbody>tr>th,
+.rainbowUI-table-bordered>tfoot>tr>th,
+.rainbowUI-table-bordered>thead>tr>td,
+.rainbowUI-table-bordered>tbody>tr>td,
+.rainbowUI-table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd;
+}
+
+.rainbowUI-table-bordered>thead>tr>th,
+.rainbowUI-table-bordered>thead>tr>td {
+    border-bottom-width: 2px;
+}
+
+.rainbowUI-badge {
+    color: #000000;
+    background-color: #ffffff;
+    line-height: 1;
+    font-style: inherit;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 9px;
+}
+
 .rainbowUI-badge-red {
     color: #fff;
     background-color: #f13737;
@@ -2128,6 +2156,20 @@ button {
     left: 0;
     top: 50%;
     margin-top: -2.5px;
+}
+
+.rainbowUI-img-circle {
+    border-radius: 50%;
+}
+
+.rainbowUI-img-rounded {
+    border-radius: 6px;
+}
+
+.rainbowUI-page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #000000;
 }
 
 
