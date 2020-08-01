@@ -1982,6 +1982,101 @@ button {
     transform: rotateZ(45deg);
 }
 
+.rainbowUI-tag {
+    display: inline-block;
+    color: #555;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 3px 8px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.rainbowUI-tag .rainbowUI-icon {
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 8px;
+}
+
+.rainbowUI-tag-red {
+    color: #ffffff;
+    border-color: #f44336;
+    background-color: #f44336;
+}
+
+.rainbowUI-tag-red .rainbowUI-icon {
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    background: none;
+}
+
+.rainbowUI-tag-yellow {
+    color: #ffffff;
+    border-color: #FDD835;
+    background-color: #FDD835;
+}
+
+.rainbowUI-tag-yellow .rainbowUI-icon {
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    background: none;
+}
+
+.rainbowUI-tag-sky {
+    color: #ffffff;
+    border-color: #03A9F4;
+    background-color: #03A9F4;
+}
+
+.rainbowUI-tag-sky .rainbowUI-icon {
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    background: none;
+}
+
+.rainbowUI-tag-blue {
+    color: #ffffff;
+    border-color: #3F51B5;
+    background-color: #3F51B5;
+}
+
+.rainbowUI-tag-blue .rainbowUI-icon {
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    background: none;
+}
+
+.rainbowUI-tag-orange {
+    color: #ffffff;
+    border-color: #FB8C00;
+    background-color: #FB8C00;
+}
+
+.rainbowUI-tag-orange .rainbowUI-icon {
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    background: none;
+}
+
+.rainbowUI-tag-green {
+    color: #ffffff;
+    border-color: #4CAF50;
+    background-color: #4CAF50;
+}
+
+.rainbowUI-tag-green .rainbowUI-icon {
+    padding: 0;
+    border: none;
+    color: #ffffff;
+    background: none;
+}
+
 
 /*rainbowUI-font*/
 
