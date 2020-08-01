@@ -36,11 +36,15 @@ body.rainbowUI-havecard {
     background-color: #f1ebf1;
 }
 
+small {
+    font-size: 80%;
+}
+
 html,
 body {
     height: 100%;
     width: 100%;
-    font-family: KohinoorBanglaMedium;
+    font-family: sans-serif;
 }
 
 * {
@@ -128,37 +132,37 @@ table {
 
 .rainbowUI-bg-red {
     background-color: #f44336 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .rainbowUI-bg-yellow {
     background-color: #FDD835 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .rainbowUI-bg-pink {
     background-color: #E91E63 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .rainbowUI-bg-sky {
     background-color: #03A9F4 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .rainbowUI-bg-blue {
     background-color: #3F51B5 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .rainbowUI-bg-orange {
     background-color: #FB8C00 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .rainbowUI-bg-green {
     background-color: #4CAF50 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 
@@ -199,7 +203,7 @@ table.rainbowUI-table-gridtable td {
     padding: 8px;
     border-style: solid;
     border-color: #666666;
-    background-color: #ffffff;
+    background-color: #fffffffff;
 }
 
 
@@ -257,7 +261,7 @@ button {
     line-height: 38px;
     padding: 0 18px;
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     white-space: nowrap;
     text-align: center;
     font-size: 14px;
@@ -272,7 +276,7 @@ button {
 .rainbowUI-btn:hover {
     opacity: 0.8;
     filter: alpha(opacity=80);
-    color: #fff;
+    color: #ffffff;
 }
 
 .rainbowUI-btn:active {
@@ -314,7 +318,7 @@ button {
 
 .rainbowUI-btn-primary {
     border: 1px solid #C9C9C9;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #555;
 }
 
@@ -397,7 +401,7 @@ button {
 .rainbowUI-card {
     margin-bottom: 15px;
     border-radius: 2px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
 }
 
@@ -477,13 +481,13 @@ button {
     line-height: 42px;
     padding: 0 15px;
     border-bottom: 1px solid #f6f6f6;
-    color: #fff;
+    color: #ffffff;
     border-radius: 2px 2px 0 0;
     font-size: 14px;
 }
 
 .rainbowUI-card-colorful-body {
-    color: #fff;
+    color: #ffffff;
     position: relative;
     padding: 10px 15px;
     line-height: 24px;
@@ -511,7 +515,7 @@ button {
 .rainbowUI-table-pretty {
     width: 100%;
     margin: 10px 0;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #666;
 }
 
@@ -620,93 +624,253 @@ button {
 }
 
 .rainbowUI-badge-simple {
-    color: #fff;
+    color: #ffffff;
     background-color: black;
     font-size: 6px;
 }
 
 .rainbowUI-badge-red {
-    color: #fff;
+    color: #ffffff;
     background-color: #f44336;
     font-size: 6px;
 }
 
 .rainbowUI-badge-red:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #d32f2f;
     font-size: 6px;
 }
 
 .rainbowUI-badge-yellow {
-    color: #fff;
+    color: #ffffff;
     background-color: #FDD835;
     font-size: 6px;
 }
 
 .rainbowUI-badge-yellow:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #FBC02D;
     font-size: 6px;
 }
 
 .rainbowUI-badge-pink {
-    color: #fff;
+    color: #ffffff;
     background-color: #E91E63;
     font-size: 6px;
 }
 
 .rainbowUI-badge-pink:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #C2185B;
     font-size: 6px;
 }
 
 .rainbowUI-badge-sky {
-    color: #fff;
+    color: #ffffff;
     background-color: #03A9F4;
     font-size: 6px;
 }
 
 .rainbowUI-badge-sky:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #0288D1;
     font-size: 6px;
 }
 
 .rainbowUI-badge-blue {
-    color: #fff;
+    color: #ffffff;
     background-color: #3F51B5;
     font-size: 6px;
 }
 
 .rainbowUI-badge-blue:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #1A237E;
     font-size: 6px;
 }
 
 .rainbowUI-badge-orange {
-    color: #fff;
+    color: #ffffff;
     background-color: #FB8C00;
     font-size: 6px;
 }
 
 .rainbowUI-badge-orange:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #EF6C00;
     font-size: 6px;
 }
 
 .rainbowUI-badge-green {
-    color: #fff;
+    color: #ffffff;
     background-color: #4CAF50;
     font-size: 6px;
 }
 
 .rainbowUI-badge-green:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #2E7D32;
     font-size: 6px;
+}
+
+.rainbowUI-pop {
+    display: inline-block;
+    position: relative;
+    padding: 12px;
+    color: #555;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 14px 2px #dddddd;
+    box-shadow: 0 0 14px 2px #dddddd;
+}
+
+.rainbowUI-pop .rainbowUI-pop-head {
+    line-height: 1;
+    padding-bottom: 16px;
+}
+
+.rainbowUI-pop.left::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    right: 0;
+    top: 50%;
+    margin-right: -5px;
+    margin-top: -6px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.rainbowUI-pop.right::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    left: 0;
+    top: 50%;
+    margin-left: -5px;
+    margin-top: -6px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.rainbowUI-pop.top::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: 0;
+    margin-left: -5px;
+    margin-bottom: -4px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.rainbowUI-pop.bottom::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 0;
+    margin-left: -5px;
+    margin-top: -4px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.rainbowUI-tip {
+    display: inline-block;
+    position: relative;
+    color: #555;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px 8px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.rainbowUI-tip.left::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #dddddd;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    right: 0;
+    top: 50%;
+    margin-right: -5px;
+    margin-top: -4px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.rainbowUI-tip.right::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #dddddd;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    left: 0;
+    top: 50%;
+    margin-left: -5px;
+    margin-top: -4px;
+    -webkit-transform: rotateZ(135deg);
+    transform: rotateZ(135deg);
+}
+
+.rainbowUI-tip.top::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #dddddd;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 0;
+    margin-left: -5px;
+    margin-top: -5px;
+    -webkit-transform: rotateZ(-135deg);
+    transform: rotateZ(-135deg);
+}
+
+.rainbowUI-tip.bottom::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #dddddd;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: 0;
+    margin-left: -5px;
+    margin-bottom: -5px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
 }
 
 
