@@ -21,5 +21,4 @@ var rainbowUI_Element = {
         fontAwesome.setAttribute('href', 'css/font-awesome.min.css');
         document.head.appendChild(fontAwesome);
     },
-
 }
