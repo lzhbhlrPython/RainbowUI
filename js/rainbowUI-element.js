@@ -3,22 +3,22 @@ var rainbowUI_Element = {
     author: "Barry",
     license: "MIT",
     init: function init() {
-        var jQuery = document.createElement('script');
-        jQuery.setAttribute('type', 'text/javascript');
-        jQuery.setAttribute('src', 'js/jquery.min.js');
-        document.head.appendChild(jQuery);
-        var sweetalert = document.createElement('script');
-        sweetalert.setAttribute('type', 'text/javascript');
-        sweetalert.setAttribute('src', 'js/sweetalert.min.js');
-        document.head.appendChild(sweetalert);
-        var popup = document.createElement('script');
-        popup.setAttribute('type', 'text/javascript');
-        popup.setAttribute('src', 'js/rainbowUI-popup.js');
-        document.head.appendChild(popup);
-        var fontAwesome = document.createElement('link');
-        fontAwesome.setAttribute('type', 'text/css');
-        fontAwesome.setAttribute('rel', 'stylesheet');
-        fontAwesome.setAttribute('href', 'css/font-awesome.min.css');
-        document.head.appendChild(fontAwesome);
+        this.importjs("js/jquery.min.js", "text/js")
+        this.importjs("js/sweetalert.min.js", "text/js")
+        this.importjs("js/rainbowUI-popup.js", "text/js")
+        this.importstyle("css/font-awesome.min.css", "type/css")
     },
+    importjs: function importjs(src, type) {
+        var module = document.createElement('script');
+        module.setAttribute('type', type);
+        module.setAttribute('src', src);
+        document.head.appendChild(module);
+    },
+    importstyle: function importst(href, type) {
+        var stylesheet = document.createElement('link');
+        stylesheet.setAttribute('type', type);
+        stylesheet.setAttribute('rel', 'stylesheet');
+        stylesheet.setAttribute('href', href);
+        document.head.appendChild(stylesheet);
+    }
 }
