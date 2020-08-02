@@ -8,7 +8,7 @@ var rainbowUI_Popup = {
                 title: title,
                 buttons: false,
                 className: className,
-                timer: timer
+                timer: timer * 1000
             })
         }
     },
@@ -16,14 +16,14 @@ var rainbowUI_Popup = {
         swal({
             title: title,
             buttons: false,
-            timer: timer,
+            timer: timer * 1000,
             icon: icon
         })
     },
     msgboxWithClose: function msgboxWithbutton(msg, title = "title", buttonText = "button", timer = null) {
         swal(msg, {
             title: title,
-            timer: timer,
+            timer: timer * 1000,
             button: buttonText
         })
 
