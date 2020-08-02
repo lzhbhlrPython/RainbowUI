@@ -1,3 +1,8 @@
+/*
+ * @Author:Barry Liu
+ * @Version:0.1.0
+ * license:MIT
+ */
 var rainbowUI_Popup = {
     version: "0.1.0",
     author: "Barry",
@@ -26,6 +31,5 @@ var rainbowUI_Popup = {
             timer: timer * 1000,
             button: buttonText
         })
-
     }
 }
