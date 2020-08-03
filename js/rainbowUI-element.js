@@ -8,10 +8,10 @@ var rainbowUI_Element = {
     author: "Barry",
     license: "MIT",
     init: function init() {
-        this.importjs("js/jquery.min.js", "text/js")
-        this.importjs("js/sweetalert.min.js", "text/js")
-        this.importjs("js/rainbowUI-popup.js", "text/js")
-        this.importstyle("css/font-awesome.min.css", "type/css")
+        this.importjs("js/jquery.min.js", "text/js");
+        this.importjs("js/sweetalert.min.js", "text/js");
+        this.importjs("js/rainbowUI-popup.js", "text/js");
+        this.importstyle("css/font-awesome.min.css", "type/css");
     },
     importjs: function importjs(src, type) {
         var module = document.createElement('script');
